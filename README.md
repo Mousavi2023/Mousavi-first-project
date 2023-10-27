@@ -18,14 +18,9 @@
 16. This code efficiently clips a multitude of raster data layers simultaneously within the specified area of interest.
 17. This code allows you to visualize both the monthly and annual trends through graphical representation.
 18. In this code, classification and clustering between the independent variable and the dependent variable will be performed using various methods, including linear and non-linear SVM, K-means, SGDClassifier, MeanShift, and Decision tree.
+19. In this code, the correlation between two variables within a particular land use is determined by establishing threshold limits.
+20. In this code, the correlation between the variables is visualized in the form of a plot.
 
 
 
 
-17 باید مقایر مثلا میانگین سالانه ال اس دی استاندا ردی وی ایشن و استاندارد اروز در یک فایل تکست اماده شود بعد نمودارش رو اینجا رسم می کنیم.
-18کلاسی فیکیشن و کلاسترین، اس وی ام خطی و غیر خطی، کی مینز ، 
-SGDClassifier
-MeanShift
-tree.Decision
-ه در ان در لند کاور های مختلف بین 
-19 کورلیشن در لند کاور های مختلف ترشولند برای پارامترهای مختلف تعریف می شود. 
