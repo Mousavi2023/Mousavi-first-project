@@ -1,14 +1,17 @@
 # Mousavi-first-project
-1 در این کد بعد از یوزرگاید که چه اطلاعاتی مودرد نیاز است و کدام ها داری صحت می باشند. داده های اچ دی اف کل دنیا برای منطقه خودمون و داده مورد نظر را استخراج کردیم.
 
-2 در این کد از آنجایی که برای هر سال 12 ماه داریم و یا حتی در بعضی ماه ها از سال داده نداریم. ما کل داده ها را به صورت ماهانه و  برای ما ها های ک میخواهم انالیز صورت بگیرد فیکس می کنیم.
-3 – در این کد مقادیر اماری کل داده ها از جمله زیر محاسبه می بشود 
-mean         max         min         std     skew    kurtosis  
-4 کد زمانی مکانی  ابتدا روند مکانی و زمانی حذف (توضیحات از پایان ناامه در بیاد) برای تهیه نقشه 
-5- در این کد مثلا گرید بندی 0.1 یا 0.25 یا 0.5 صورت درجه صورت می گیرد که حجم داده ها کم شود وبرای هر گرید میانگین هارو در نظر می گیره که برای ران همه طول می کشید ک ما دی کومپوس و کمپوس را در نظر گرفتیم.
-6- در کد دیگری گرید بندی برای تمام داده های پوینت می باشد ولی در قبلی فقط برای داده های کربن بود.
-7- مانسلی دی کوپموس برای اینکه گرید بندی کنیم و حجم ران خیلی طول نکشد اول دیکمپوس می کنیم بعد کمپوس که در ان کل داده ها تبدیل به ماههنه می شوند.
-8- بعد از گرید بندی مثلا 72 ماه او سی او تو حالا میخواهیم تمام این 72 به یک فایل تبدیل شود ک اسمش کپوس می باشد
+1. We extracted the HDF data of the whole world for our region and the desired data.
+2. In this code, since we have 12 months for each year, or even in some months of the year, we do not have data. We fix all the data on a monthly basis and for those who want to be analyzed.
+3. In this code, the statistical values for the entire dataset are computed, encompassing metrics such as mean, maximum, minimum, standard deviation, skewness, and kurtosis.
+4. spatio_temporal modeling code.
+5. code of the XCO2 monthly  spatial mean in 0.25° × 0.25° grids.
+6. Code of all data mean in 0.25° × 0.25° grids.
+7. To expedite the grading process for thigh volume, we commence with decomposition.
+8. We use compose to combine all monthly data in one file
+7. 
+
+7- 
+8- 
 9- رستر استاتیسکا در این کد مثلا 216 تا فایل رستری داریم برای خاورمیانه یا هر منطقه ای دیگر بعد میخواهیم از این رستر ها 
 mean       max           min           std         skew        kur           sum              N_sam
 را محاسبه کنیم و میزنیم و ران می کنیم.
