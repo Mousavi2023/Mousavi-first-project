@@ -8,21 +8,20 @@
 6. Code of all data mean in 0.25° × 0.25° grids.
 7. To expedite the grading process for thigh volume, we commence with decomposition.
 8. We use compose to combine all monthly data in one file
-7. 
+9. In this code, we provide the entire set of long-term  raster monthly data for the specified region, and it automatically computes the following statistics: mean, maximum, minimum, standard deviation, skewness, kurtosis, sum, and sample count (N_sam).
+10. This code transforms monthly raster images into 0.05-degree images using different methods, including maximum, minimum, summation, and median calculations.
+11. In this code, the correlation between two images is calculated and the output is given as text.
+12. In this code, in addition to spatial correlation between two images, temporal correlations are also calculated.
+13. The code for computing the median from the primary carbon dioxide data, which includes latitude, longitude information, and carbon data, can be found in the following file.
+14. Wind direction calculation code from ECMWF data.
+15. In this code, for each latitude and longitude pair, the values of all variables are extracted at that specific location.
+16. This code efficiently clips a multitude of raster data layers simultaneously within the specified area of interest.
+17. This code allows you to visualize both the monthly and annual trends through graphical representation.
+18. In this code, classification and clustering between the independent variable and the dependent variable will be performed using various methods, including linear and non-linear SVM, K-means, SGDClassifier, MeanShift, and Decision tree.
 
-7- 
-8- 
-9- رستر استاتیسکا در این کد مثلا 216 تا فایل رستری داریم برای خاورمیانه یا هر منطقه ای دیگر بعد میخواهیم از این رستر ها 
-mean       max           min           std         skew        kur           sum              N_sam
-را محاسبه کنیم و میزنیم و ران می کنیم.
-10 کد نیم درجه درداین کد نقشه های مثلا ال اس دی و ... را به مامزمم منیمموم سام و مدیان برای هر 0.5 درجه تبدیل می می 
-کند.
-11 کد همبستگی بین دو تا تصویر است ک خروجی را ب صورت تکست می دهد.
-12 این کد غلاوه بر همبستگی های مکانی- کوریلشن زمانی مانند شکل کورلیشن اودیاک مقاله اتمسفریک و همچنین کورلیشن های زمانی سالانه را نشان می دهد.
-13 در داده هایی کربن ک شامل لت و لانگ و کربن بود این کد برای هر نقطه مدیان را محاسبه می کند.
-14. ویند دیرکشن با استفاده از یو و وی میزان جهت باد را محاسبه می کند.
-15 اکسترکت ولیو تو پوینت از انجایی ک ما برای اوسی او تو 72 ماه لت و لانگ و کربن داریم بعد 11 تا داده دیگر هر کدام در یک پوشه بعد این کد در مقابل هر لت و لانگ مقادیر متناظر ان را در نظر می گیرد.
-16 کلیپ رستر 
+
+
+
 17 باید مقایر مثلا میانگین سالانه ال اس دی استاندا ردی وی ایشن و استاندارد اروز در یک فایل تکست اماده شود بعد نمودارش رو اینجا رسم می کنیم.
 18کلاسی فیکیشن و کلاسترین، اس وی ام خطی و غیر خطی، کی مینز ، 
 SGDClassifier
